@@ -71,7 +71,7 @@ class ExpressionEvaluator(
                     ExpressionResult(remainingExpression, -value)
                 }
             }
-            ExpressionPart.Parentheses(ParenthesesType.Opening) -> {
+            ExpressionPart.Parentheses(ExpressionPart.ParenthesesType.Opening) -> {
                 evalExpression(expression.drop(1)).run {
                     ExpressionResult(remainingExpression.drop(1), value)
                 }

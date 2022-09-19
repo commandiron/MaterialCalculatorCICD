@@ -44,8 +44,8 @@ class ExpressionParser(
         result.add(
             ExpressionPart.Parentheses(
                 type = when(curChar){
-                    '(' -> ParenthesesType.Opening
-                    ')' -> ParenthesesType.Closing
+                    '(' -> ExpressionPart.ParenthesesType.Opening
+                    ')' -> ExpressionPart.ParenthesesType.Closing
                     else -> throw IllegalArgumentException("Invalid parentheses type")
                 }
             )

@@ -38,11 +38,11 @@ class ExpressionParserTest {
         val expected = listOf(
             ExpressionPart.Number(4.0),
             ExpressionPart.Op(Operation.SUBTRACT),
-            ExpressionPart.Parentheses(ParenthesesType.Opening),
+            ExpressionPart.Parentheses(ExpressionPart.ParenthesesType.Opening),
             ExpressionPart.Number(4.0),
             ExpressionPart.Op(Operation.MULTIPLY),
             ExpressionPart.Number(5.0),
-            ExpressionPart.Parentheses(ParenthesesType.Closing),
+            ExpressionPart.Parentheses(ExpressionPart.ParenthesesType.Closing),
         )
 
         assertThat(expected).isEqualTo(actual)
