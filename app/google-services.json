@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "555932190067",
+    "project_id": "materialcalculator-ac576",
+    "storage_bucket": "materialcalculator-ac576.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555932190067:android:a0c59d6179569dae51f106",
+        "android_client_info": {
+          "package_name": "com.commandiron.materialcalculatorcicd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555932190067-8n8afkmcdcb3mpe12gqgeh8t64asfsl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKWwjbEbGGYEOTZ9dCnhIRAbToPhoOVvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555932190067-8n8afkmcdcb3mpe12gqgeh8t64asfsl4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
